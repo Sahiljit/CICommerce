@@ -1,0 +1,99 @@
+.shipping-screen{
+  
+    min-height: 80vh;
+
+    .checkout-steps{
+
+      margin-top: 5rem;
+      margin-left: 8rem;
+
+    }
+
+  
+      .shipping-screen-container{
+  
+          max-width: 50rem;
+          margin:0 auto;
+          display:flex;
+          flex-direction: column;
+          align-items:flex-start;
+          justify-content:center;
+          gap:3.2rem;
+          margin-top:10rem;
+  
+        .heading{
+          font-size: 2.4rem;
+          font-weight: 500;
+          color:var(--primary-color);
+          margin-bottom: 1rem;
+  
+        }     
+  
+          .input-field {
+            position: relative;
+            width: 35rem;
+            height: 4.4rem;
+            line-height: 4.4rem;
+            // padding-bottom: 2rem;
+          
+              label {
+                font-size: 2rem;
+                font-weight: 400;
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                color: var(--grey);
+                transition: 0.2s all;
+                cursor: text;
+                // padding-bottom: 1.2rem;
+                
+              }
+              input {
+                width: 100%;
+                border: 0;
+                outline: 0;
+                padding: 0.5rem 0;
+                border-bottom: 2px solid black;
+                box-shadow: none;
+                color: #111;
+                padding-bottom: 1rem;
+
+              }
+              input:invalid {
+                outline: 0;
+                // color: #ff2300;
+                //   border-color: #ff2300;
+              }
+              input:focus,
+              input:valid {
+                font-size: 2rem;
+                padding-top:1.6rem;
+                border-color: var(--primary-color);
+              }
+              input:focus~label,
+              input:valid~label {
+                font-size: 1.4rem;
+                font-weight:500;
+                top: -2.4rem;
+                color: var(--primary-color);
+              }
+  
+         }
+  
+         .btn{
+           background-color: var(--primary-color);
+           font-size:1.6rem;
+           width: 35rem;
+
+           .icon{
+               margin-left:1rem;
+               font-size: 2rem;
+           }
+
+         }
+  
+            
+   
+      }
+  }

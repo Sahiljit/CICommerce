@@ -1,0 +1,101 @@
+.header{
+
+    background-color: var(--primary-color);
+    width: 100%;
+
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:1.6rem;
+    padding-top:2.2rem;
+    padding-bottom: 2.2rem;
+
+    .heading-search{
+
+        display:flex;
+        gap:4rem;
+        align-items: center;
+
+        .heading{
+            color:white;
+            font-size:3.6rem;
+            font-weight:400;
+            margin-left:4rem;
+            cursor: pointer;
+        }
+
+
+    .row{
+        max-width:53rem;
+
+        display:flex;
+        align-items: center;
+
+        input{
+            background-color: white;
+            border:none;
+            height:4rem;
+            border-radius:0.5rem;
+            padding-left: 1.2rem;
+            font-size: 1.9rem;
+           
+        }
+        input::placeholder{
+            margin-left: 1rem;
+            // padding-left: 1rem;
+        }
+
+        input:focus{
+            outline:none;
+        }
+
+        .btn{
+            color: white;
+            border-color: white;
+            margin-left:1rem;
+            font-size:1.6rem;
+        }
+        
+    }
+
+    }
+
+    .navigation{
+
+        margin-right:4rem;
+        display:flex;
+
+        .btn{
+            color:white;
+            font-size: 1.8rem;
+            margin-right:1.2rem;
+
+            .icon{
+                font-size: 1.8rem;
+                margin-left: 0.8rem;
+            }
+
+            .icon1{
+                font-size:2.4rem;
+            }
+        }
+
+        .btn1{
+            margin-right:1rem;
+        }
+
+        .menu-list{
+
+            max-width: 12rem;
+            max-height: 5rem;
+
+            
+        }
+
+        .menu-list-item{
+            font-size:1.6rem;
+            max-height: 5rem;
+        }
+
+    }
+}

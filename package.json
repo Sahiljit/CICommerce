@@ -1,0 +1,34 @@
+{
+  "name": "cicommerce",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "server": "nodemon backend/server",
+    "client": "npm start --prefix frontend",
+    "data:import": "node backend/data/seeder",
+    "data:destory": "node backend/data/seeder -d",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sahiljit/cicommerce.git"
+  },
+  "author": "sahiljit sandhu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sahiljit/cicommerce/issues"
+  },
+  "homepage": "https://github.com/sahiljit/cicommerce#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.2",
+    "express-async-handler": "^1.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.2.1",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.15"
+  }
+}

@@ -1,0 +1,79 @@
+/*
+Spacing system (px) 2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+Font sizes (px) 10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+*/
+
+
+.container{
+
+    max-width: 120rem;
+    padding: 0 3.2rem;
+    margin: 0 auto;
+}
+
+
+.toastBody{
+    font-size:1.8rem;
+    color: var(--primary-color);
+  }
+  
+  
+  
+  .Toastify__toast-container {
+    margin-top:4rem;
+  }
+  
+  .Toastify__progress-bar--success {
+    background: rgb(30, 172, 56) !important;
+  }
+  
+  .Toastify__progress-bar--error {
+    background: rgb(235, 66, 66) !important;
+  
+  }
+
+  .success-message{
+    font-size:1.9rem;
+    margin-bottom: 2.5rem;
+    color: green;
+
+    display:flex;
+    align-items:center;
+
+    .success-icon{
+        font-size:2rem;
+        margin-left:1rem;
+    }
+  }
+
+  .error-message{
+
+    font-size:1.9rem;
+    margin-bottom: 2.5rem;
+    color: rgb(218, 54, 54);
+
+    display:flex;
+    align-items:center;
+
+    .close-icon{
+        font-size:2rem;
+        margin-left:1rem;
+    }
+
+  }
+
+  .loading-container{
+
+    max-width: 5rem;
+    margin: 0 auto;
+    margin-top:10rem;
+  
+    .loading{
+      .loading-icon{
+          font-size:1rem;
+          color:var(--primary-color);
+      }
+    }
+  
+  }
+  

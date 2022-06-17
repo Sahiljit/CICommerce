@@ -1,0 +1,207 @@
+.profile-screen{
+
+    max-width:140rem;
+    margin:0 auto;
+    display: grid;
+    grid-template-columns: 75% 25%;
+    gap:3.8rem;
+
+    margin-bottom:10rem;
+
+
+  
+
+    .left{
+
+      margin-top:10rem;
+
+      .heading{
+        font-size: 2.4rem;
+        font-weight: 500;
+        color:var(--primary-color);
+        margin-bottom:5rem;
+        // border-bottom: 0.1rem solid;
+  
+      }   
+
+      .table{
+        max-width: 100rem;
+        // border-collapse: collapse;
+        font-size:1.6rem;
+
+      td{
+        text-align: left;
+        padding: 1rem 2rem;
+      }
+      
+      th{
+          text-align: left;
+          padding: 1.8rem 2rem;
+          background-color: var(--primary-light-color-1);
+          width: 10%;
+      }
+      
+      tbody tr:nth-child(odd){
+          background-color: #f1f3f5;
+      
+      }
+      
+      tbody tr:nth-child(even){
+          background-color: #e9ecef;
+      
+      }
+
+      .check-details{
+
+        font-size: 1.6rem;
+        color: var(--primary-color);
+        padding-left:0;
+      }
+
+      .not-paid{
+        display: flex;
+        justify-content:center;
+
+        .icon{
+          font-size:2.4rem;
+          color: rgb(243, 91, 91);
+          font-weight: 500;         
+        }
+
+      }
+
+      .paid-at{
+        font-size: 1.7rem;
+        display: flex;
+        justify-content:center;
+        color: rgb(14, 99, 14);
+        font-weight: 500;
+
+
+      }
+
+      .delivered{
+
+        display: flex;
+        justify-content:center;
+        color:rgb(14, 99, 14);
+        .icon{
+          font-size:2.6rem;
+
+        }
+
+      }
+
+
+
+    }
+
+  }
+
+
+    .right{
+
+      .heading{
+        font-size: 2.4rem;
+        font-weight: 500;
+        color:var(--primary-color);
+        margin-bottom:2rem;
+        // border-bottom: 0.1rem solid;
+  
+      }   
+
+        .profile-section{
+  
+            min-height: 80vh;
+            margin-top:12rem;
+
+           
+          
+              .profile-section-container{
+          
+                  max-width: 30rem;
+                  margin:0 auto;
+                  display:flex;
+                  flex-direction: column;
+                  gap:3.2rem;
+          
+
+          
+                  .input-field {
+                    position: relative;
+                    width: 25rem;
+                    height: 4.4rem;
+                    line-height: 4.4rem;
+                  
+                      label {
+                        font-size: 2rem;
+                        font-weight: 400;
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        width: 100%;
+                        color: var(--grey);
+                        transition: 0.2s all;
+                        cursor: text;
+                        // padding-bottom: 1.2rem;
+                        
+                      }
+                      input {
+                        width: 100%;
+                        border: 0;
+                        outline: 0;
+                        padding: 0.5rem 0;
+                        border-bottom: 2px solid black;
+                        box-shadow: none;
+                        color: #111;
+                      }
+                      input:invalid {
+                        outline: 0;
+                        // color: #ff2300;
+                        //   border-color: #ff2300;
+                      }
+                      input:focus,
+                      input:valid {
+                        font-size: 2rem;
+                        padding-top:1.6rem;
+                        border-color: var(--primary-color);
+                      }
+                      input:focus~label,
+                      input:valid~label {
+                        font-size: 1.4rem;
+                        font-weight:500;
+                        top: -2.4rem;
+                        color: var(--primary-color);
+                      }
+          
+                 }
+          
+                 .btn{
+                   background-color: var(--primary-color);
+                   font-size:1.6rem;
+                 }
+          
+                .new-user{
+          
+                  display:flex;
+                  align-items:center;
+                  
+                  span{
+                    font-size:1.8rem;
+                    font-weight: 500;
+                    margin-right:1.4rem;
+                  }
+          
+                  .btn-primary{
+                    font-size: 1.6rem;
+                    color:var(--primary-color);
+                    border-color: var(--primary-color);
+                  }
+                }            
+           
+              }
+          }
+
+    }
+
+}

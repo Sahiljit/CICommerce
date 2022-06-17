@@ -1,0 +1,120 @@
+.order-list{
+
+    max-width: 140rem;
+    margin:0 auto;
+
+    .order-list-container{
+
+        margin-top:8rem;
+
+        .heading{
+            font-size: 3.2rem;
+            color: var(--primary-color);
+            margin-bottom: 3rem;
+        }
+
+        .table{
+            max-width: 130rem;
+            // border-collapse: collapse;
+            font-size:1.6rem;
+    
+          td{
+            text-align: left;
+            padding: 1rem 2rem;
+          }
+          
+          th{
+              text-align: left;
+              padding: 1.8rem 2rem;
+              background-color: var(--primary-light-color-1);
+              width: 10%;
+          }
+          
+          tbody tr:nth-child(odd){
+              background-color: #f1f3f5;
+          
+          }
+          
+          tbody tr:nth-child(even){
+              background-color: #e9ecef;
+          
+          }
+
+          .is-paid, .is-delivered{
+
+            display:flex;
+            justify-content:center;
+           
+            .tick{
+                font-size:2rem;
+                // font-weight: 700;
+                color: rgb(39, 184, 39);
+            }
+
+            .close{
+                font-size: 2rem;
+                color: rgb(125, 27, 27);
+            }
+          }
+
+          .delete-icon{
+            color: rgb(206, 40, 40);
+            font-size: 2rem;
+        }
+
+        .edit-icon{
+            font-size: 2rem;
+            margin-right: 1rem;
+            margin-left: 1rem;
+        }
+
+         
+    
+          .check-details{
+    
+            font-size: 1.6rem;
+            color: var(--primary-color);
+            padding-left:0;
+          }
+    
+          .not-paid{
+            display: flex;
+            justify-content:center;
+    
+            .icon{
+              font-size:2.4rem;
+              color: rgb(243, 91, 91);
+              font-weight: 500;         
+            }
+    
+          }
+    
+          .paid-at{
+            font-size: 1.7rem;
+            display: flex;
+            justify-content:center;
+            color: rgb(14, 99, 14);
+            font-weight: 500;
+    
+    
+          }
+    
+          .delivered{
+    
+            display: flex;
+            justify-content:center;
+            color:rgb(14, 99, 14);
+            .icon{
+              font-size:2.6rem;
+    
+            }
+    
+          }
+    
+    
+    
+        }
+    
+
+    }
+}

@@ -1,0 +1,92 @@
+.product-edit-screen{
+
+    max-width:120rem;
+    margin:0 auto;
+    // display:flex;
+
+    .go-back{
+        color: var(--primary-color);
+        border-color: var(--primary-color);
+        margin-top:5rem;
+        font-size:1.8rem;
+
+        .icon{
+            font-size: 2rem;
+            margin-right:1rem;
+        }
+    }
+
+    .product-edit-container{
+        
+        max-width:60rem;
+        margin:0 auto;
+        margin-bottom: 10rem;
+        // background-color: var(--background-color);
+
+        .heading{
+            font-size:3.2rem;
+            font-weight: 500;
+            color: var(--primary-color);
+            margin-bottom: 2.5rem;
+        }
+
+        .row{
+            max-width:53rem;
+            display:flex;
+            flex-direction: column;
+            margin-bottom:2.2rem;
+
+            label{
+                font-size: 1.7rem;
+                font-weight: 500;
+                color: rgb(102, 101, 109);
+                margin-bottom: 0.5rem;
+            }
+
+            input, textarea{
+                background-color: var(--background-light-color);
+                border:none;
+                height:4.5rem;
+                border-radius:0.5rem;
+                padding-left: 1.2rem;
+                font-size: 1.9rem;
+               
+            }
+            input::placeholder, textarea::placeholder{
+                margin-left: 1rem;
+                // padding-left: 1rem;
+            }
+
+            input:focus, textarea:focus{
+                outline:none;
+            }
+
+            textarea{
+                padding-top:0.8rem;
+                padding-bottom: 0.8rem;
+                height:12rem;
+                font-size:1.6rem;
+                line-height: 3rem;
+            }
+
+            
+        }
+
+        .btn{
+            margin-top:2rem;
+            background-color: var(--primary-color);
+            font-size:1.8rem;
+
+
+            .icon{
+                font-size: 2rem;
+                margin-left: 1rem;
+                margin-bottom: 0.2rem;
+            }
+        }
+        
+     
+
+    }
+
+}

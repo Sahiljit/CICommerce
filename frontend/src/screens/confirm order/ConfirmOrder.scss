@@ -1,0 +1,162 @@
+.confirm-order{
+
+
+    .checkout-steps{
+
+        margin-top: 5rem;
+        margin-left: 8rem;
+  
+      }  
+
+    .order-summary-container{
+
+        max-width: 130rem;
+        margin:0 auto;
+        margin-top:7rem;
+
+        display: grid;
+        grid-template-columns:75% 25% ;
+
+
+        .left{
+
+            .heading{
+                max-width: 70rem;
+                padding-bottom: 1rem;
+                font-size: 3rem;
+                color: var(--primary-color);
+                margin-bottom: 2rem;
+                border-bottom: 0.1rem solid;
+            }
+
+            .shipping{
+
+                .text{
+                    font-size: 1.8rem;
+                    margin-bottom: 0.7rem;
+                }
+
+            }
+
+            .order-items{
+                margin-top:5rem;
+
+                .cart-items-container{
+
+
+
+                    .cart-item{
+                        max-width:70rem;
+                        display:flex;
+                        justify-content:space-between;
+                        margin-bottom: 2rem;
+                    }
+
+
+                    .item-name{
+                        font-size: 2rem;
+                        color : var(--grey);
+                        font-weight: 500;
+                        cursor: pointer;
+
+                    }
+
+                    .price{
+                        font-size: 2rem;
+                        color : var(--grey);
+                    }
+
+                }
+
+
+            }
+
+        }
+
+
+        .right{
+
+            max-width:30rem;
+
+            .payment-method{
+
+                display:flex;
+                justify-content:space-between;
+                align-items:center;
+                padding-bottom:1rem;
+                border-bottom: 0.1rem solid var(--primary-color);
+
+                .heading{
+                    font-size:2.5rem;
+                    color: var(--primary-color);
+                    font-weight: 500;
+                }
+
+                .text{
+                    font-size:2.2rem;
+                    color: var(--grey);
+                    font-weight: 500;
+                }
+
+            }
+
+            .order-summary{
+
+                margin-top:5rem;
+
+                .heading{
+                    font-size:2.5rem;
+                    color: var(--primary-color);
+                    font-weight: 500;
+                    padding-bottom:0.5rem;
+                    margin-bottom: 1.8rem;
+                    border-bottom: 0.1rem solid var(--primary-color);
+
+                }
+
+                .inner{
+                    display: flex;
+                    justify-content:space-between;
+                    margin-bottom: 1rem;
+
+                    .text{
+                        font-size: 2rem;
+                        color: var(--grey);
+                        font-weight: 500;
+                    }
+
+                  
+
+                    .value{
+                        font-size: 1.8rem;
+                    }
+                }
+
+                .final{
+                    margin-top:2rem;
+
+                    .value{
+                        font-weight: 700;
+                    }
+                }
+
+                .btn{
+                    background-color: var(--primary-color);
+                    font-size: 1.8rem;
+                    margin-top: 4rem;
+
+                    .icon{
+                        font-size: 2.2rem;
+                        margin-left: 2rem;
+                    }
+                }
+
+            }
+
+
+        }
+
+    }
+
+
+}

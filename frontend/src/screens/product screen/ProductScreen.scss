@@ -1,0 +1,332 @@
+.product-screen{
+
+    max-width:140rem;
+    margin:0 auto;
+    margin-top:4.8rem;
+
+    .go-back{
+        font-size:1.6rem;
+        color:var(--primary-color);
+        border-color: var(--primary-color);
+
+        .icon{
+            font-size:3rem;
+            margin-right: 1rem;
+        }
+    }
+
+    .grid-container{
+
+        display:grid;
+        grid-template-columns: 40% 60%;
+        justify-content: center;
+        column-gap: 6.4rem;
+        margin-top: 6.4rem;
+        // overflow:auto;
+
+        // display:flex;
+        // gap:6.4rem;
+        // margin-top: 6.4rem;
+
+
+        
+
+        .left{
+            
+            // position:fixed;
+            width:70%;
+            margin: 0 auto;
+            max-width: 50rem;
+            // max-height: 100vh;
+            // overflow: hidden;
+
+
+            img{
+                width:100%;                      
+            }           
+
+        }
+
+        .right{
+
+            height: 87vh;
+            display:flex;
+            flex-direction: column;
+            overflow-y: scroll;
+            // overflow-y: hidden; 
+
+     
+
+            .name{
+                font-size: 3.6rem;
+                font-weight:500;
+                color:var(--primary-color);
+                margin-bottom:3.2rem;
+                text-transform: none;
+            }
+
+            .description{
+                font-size:2.4rem;
+                font-weight:500;
+                margin-bottom: 1.4rem;
+                padding-right:10rem;
+            }
+
+            .description-text{
+                font-size:1.8rem;
+                color:var(--grey);
+                line-height: 2.4rem;
+                text-align: justify;
+                margin-bottom: 2.4rem;
+            }
+
+            .reviews{
+
+                display:flex;
+                margin-bottom: 2.4rem;
+
+                .product-rating{
+                    font-size: 2rem;
+                    font-weight:700;
+                    color: var(--primary-color);
+                    margin-right:1rem;
+                }
+
+                .rating{
+                    color: var(--primary-color);
+                    font-size: 2.2rem;
+                    margin-right:2rem;
+                }
+
+                .num-reviews{
+                    font-size: 2rem;
+                    // color:var(--grey);
+
+                }            
+            }
+
+            .price{
+                max-width:10rem;
+                font-size: 2rem;
+                font-weight: 500;
+                padding: 1rem;
+                background-color: var(--background-color);
+                border-radius: 0.5rem;
+                margin-bottom: 3.2rem;
+            }
+
+            .status{
+
+                font-size: 2rem;
+                font-weight: 500;
+                // text-transform: uppercase;
+                color: var(--grey);
+                margin-bottom: 2rem;
+
+                .status-value{
+                    color:var(--primary-color);
+                    font-weight: 700;
+                    margin-left: 1rem;
+                }
+
+
+            }
+
+            .input-select-cart-btn{
+
+                display: flex;
+                // justify-content: space-between;
+                gap: 8rem;
+
+                margin-top:2rem;
+                // border-bottom: 0.1rem solid var(--primary-color);
+                // padding-bottom: 4rem;
+                
+                .input-select{
+                    max-width:15rem;
+                    min-height: 4rem; 
+                    margin-bottom: 2.4rem;   
+                    
+                    .label{
+                        display:block;
+                        font-size:1.6rem;
+                        margin-bottom: 0.5rem;
+                        font-weight: 500;
+                    }
+                    
+                    select{
+                        width: 100%;
+                        height:100%;
+                        padding-left: 1.2rem;
+                        padding-right: 1.2rem;
+                        font-size: 1.6rem;
+                        
+                    }
+                }
+    
+                .btn{
+    
+                    font-size: 2rem;
+                    // max-width: 20rem;
+                    background-color:var(--primary-color);
+                    margin-top: 2.4rem;
+
+                    .cart-icon{
+                        font-size: 2.5rem;;
+                        margin-left:2rem;
+                        // height: 5rem;
+                        // width: 2rem;
+                    }
+                }
+            }   
+
+
+            .reviews-container{
+
+
+                margin-top:10rem;
+
+                .heading1{
+                    font-size: 3rem;
+                    color: var(--primary-color);
+                    margin-bottom:2rem;
+                }
+
+          
+
+                .row{
+                    max-width:53rem;
+                    display:flex;
+                    flex-direction: column;
+                    margin-bottom:1.8rem;
+
+                    .rate-product{
+                        font-size:2rem;
+                        font-weight: 500;
+                        color: rgb(80, 79, 86);
+                    }
+
+                    .rating-wrapper{
+                        // font-size: 4rem;
+                        // background-color: var(--primary-color);
+                        // min-height: 10rem;
+                        // max-width: 1rem;
+
+                        margin-bottom:2rem;
+
+
+                        .rating1{
+                            font-size:3.2rem;
+                            margin-top:1rem;
+                            // font-size:3rem !important;
+                            // display:flex;
+                            // gap:2rem;
+                            // flex-direction: column;
+                            // color: var(--primary-color);
+                            // margin-right:2rem;
+                            // height:3rem !important;
+                            // min-width:3rem !important;
+                        }
+
+                    }
+
+                 
+
+            
+        
+                    .label{
+                        font-size: 2rem;
+                        font-weight: 500;
+                        color: rgb(80, 79, 86);
+                        // color: red;
+                        margin-bottom: 1rem;
+                    }
+
+        
+                   textarea{
+                        background-color: var(--background-light-color);
+                        border:none;
+                        height:4.5rem;
+                        border-radius:0.5rem;
+                        padding-left: 1.2rem;
+                        font-size: 1.9rem;
+
+                        padding-top:0.8rem;
+                        padding-bottom: 0.8rem;
+                        height:12rem;
+                        font-size:1.6rem;
+                        line-height: 3rem;
+                       
+                    }
+                    textarea::placeholder{
+                        margin-left: 1rem;
+                        // padding-left: 1rem;
+                    }
+        
+                    textarea:focus{
+                        outline:none;
+                    }
+        
+                    
+                }
+
+                .btn{
+                    background-color: var(--primary-light-color);
+                    font-size:1.4rem;
+                    margin-bottom:1rem;
+                }
+
+                .read-review{
+                    margin-top:7rem;
+                    max-width: 55rem;
+                    margin-bottom:8rem;
+
+
+                    .heading2{
+                        font-size:2.6rem;
+                        color: var(--primary-light-color);
+                        border-bottom: 0.1rem solid var(--primary-light-color);
+                        padding-bottom: 0.6rem;
+
+                        margin-bottom:3rem;
+                    }
+
+                    .row-review{
+
+                        margin-bottom: 3rem;
+
+                        .review-name{
+                            font-size:1.8rem;
+                            font-weight: 500;
+                            margin-bottom: 0.3rem;
+                            margin-left:0.5rem;
+                        }
+
+                        .rating{
+                            font-size:2.4rem;
+                            margin-bottom: 0.5rem;
+                        }
+
+                        .review-text{
+                            margin-left:0.5rem;
+                            font-size:2rem;
+                            margin-top: 0.3rem;
+
+
+                        }
+
+
+                    }
+                }
+
+            }
+            
+
+          
+        }
+
+        
+    }
+
+
+}

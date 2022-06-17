@@ -1,0 +1,66 @@
+.payment-method-screen{
+  
+    min-height: 80vh;
+
+    .checkout-steps{
+
+      margin-top: 5rem;
+      margin-left: 8rem;
+
+    }
+
+  
+      .payment-method-screen-container{
+  
+          max-width: 50rem;
+          margin:0 auto;
+          display:flex;
+          flex-direction: column;
+          align-items:flex-start;
+          justify-content:center;
+        //   gap:3.2rem;
+          margin-top:10rem;
+  
+        .heading{
+          font-size: 2.4rem;
+          font-weight: 500;
+          color:var(--primary-color);
+          text-align: left;
+          margin-bottom: 3.2rem;
+  
+        }     
+
+        .payment-method{
+            display:flex;
+            align-items:center;
+            margin-bottom:1rem;
+
+            .radio{
+                color: var(--primary-color);
+                height: 4rem;
+            }
+
+            .name{
+                font-size: 2rem;
+            }
+
+        }
+  
+
+  
+         .btn{
+           background-color: var(--primary-color);
+           font-size:1.6rem;
+           width: 30rem;
+           margin-top: 2rem;
+
+           .icon{
+               margin-left:1rem;
+               font-size: 2rem;
+           }
+
+         }
+  
+   
+      }
+  }

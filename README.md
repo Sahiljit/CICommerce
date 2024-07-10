@@ -100,7 +100,7 @@ Feel free to contribute
 
 ## Feedback
 
-If you have any feedback, please reach out to me at [sahiljit.com](https://www.sahiljit.com)
+If you have any feedback, please reach out to me at sahiljitsandhu333@gmail.com
 
 
 
